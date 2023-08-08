@@ -46,7 +46,7 @@
 
     <h3>unordered list</h3>
 
-    <ul>
+    <ul class="list-nobullet">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
@@ -54,15 +54,15 @@
 
     <h3>unordered inline list</h3>
 
-    <ul>
-        <li>inline item one</li>
-        <li>inline item two</li>
-        <li>inline item three</li>
+    <ul class="list-nobullet">
+        <li class="list-inline">inline item one</li>
+        <li class="list-inline">inline item two</li>
+        <li class="list-inline">inline item three</li>
     </ul>
     
     <h3>reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>Egg</li>
         <li>Bread</li>
         <li>Jam</li>        
@@ -73,11 +73,12 @@
     <h2>@nav</h2>
      
     <h3>Navigation is used to navigate to other pages in the site</h3>
-    <nav>
-    <ul>
-        <li><a href='/'>Home</a></li>
-        <li><a href='/'>Projects</a></li>
-        <li><a href='/'>About</a></li>
+    <nav class="navigation container">
+    <div class="navigation navbrand">iAmDeveloper</div>
+    <ul class="list-nobullet navpills">
+        <li class="list-inline"><a class="link link-active" href='/'>Home</a></li>
+        <li class="list-inline"><a class="link" href='/'>Projects</a></li>
+        <li class="list-inline"><a class="link" href='/'>About</a></li class="list-inline">
     </ul>
     </nav>
     <header>
