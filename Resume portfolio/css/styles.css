@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #6366f1;
+}
+body{
+    font-family: 'Arvo', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**conatiner**/
+
+.container{
+    padding-left : 1em;
+    padding-right : 1em;
+}
+
+.container-center{
+    margin : auto;
+    max-width:600px;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+/**Links**/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.link-secondary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+
+}
