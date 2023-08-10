@@ -3,116 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sravani Rebba</title>
-    <link rel="stylesheet"  href="css/styles.css" />
+    <title>Sravani | UI Developer</title>
+    <link rel="icon" type="image" href="images/icons8-resume-80.png">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans:wght@100;200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3877ad3fa4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <section>
-            <h1>home</h1>
-            <h2>About me</h2>
-        </section>
-        <section>
-            <h3>Sravani Rebba</h3>
-            <h2>I am a front end developer with <strong>5 years of react </strong> experience</h2>
-        </section> 
-    </div>
-
-    <hr>
-    
-    <h2>@container</h2>
-    <h3>Fluid container</h3>
-    <div class = "container">
-       This is a fluid container and will go till the end of the page
-    </div>
-
-    <h3>center container</h3>
-    <div class = "container container-center">
-        This is a centered container and it will go till the specified width
-    </div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a class ="link link-primary" href = "/"> Primary Link</a>
-    <a  class ="link link-secondary" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <h3>unordered list</h3>
-
-    <ul class="list-nobullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul class="list-nobullet">
-        <li class="list-inline">inline item one</li>
-        <li class="list-inline">inline item two</li>
-        <li class="list-inline">inline item three</li>
-    </ul>
-    
-    <h3>reverse ordered list</h3>
-
-    <ol reversed>
-        <li>Egg</li>
-        <li>Bread</li>
-        <li>Jam</li>        
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-     
-    <h3>Navigation is used to navigate to other pages in the site</h3>
     <nav class="navigation container">
-    <div class="navigation navbrand">iAmDeveloper</div>
+    <div class="navigation navbrand">DevelopedByMe</div>
     <ul class="list-nobullet navpills">
-        <li class="list-inline"><a class="link link-active" href='/'>Home</a></li>
-        <li class="list-inline"><a class="link" href='/'>Projects</a></li>
-        <li class="list-inline"><a class="link" href='/'>About</a></li class="list-inline">
+        <li class="list-inline"><a class="link link-active" href='https://docs.google.com/document/d/1Af8Y2jMIvmdhzMW1L1Weo8SXvrUrEuxM/edit?usp=sharing&ouid=107210363994453059489&rtpof=true&sd=true'>Resume</a></li>
+        
     </ul>
     </nav>
     <header class="hero">
         <img class="hero-img" src="images/Avatar.svg"/>
-        <h2 class="hero-heading">Sravani Rebba ,<span style="color:var(--primary-color)">UI Developer</span></h2>
+        <h2 class="hero-heading">Sravani Rebba </h2>
+        <span class="hero-tagline" >I am a front end Developer and I ❤️ to build websites</span>
+        <div class="intro">connect me through</div>
+            <section class="reach">
+                <ul class="list-nobullet">
+                    <li class="list-inline"><a class="link" href='www.linkedin.com/in/sravani202021'><i class="fa-brands fa-linkedin-in fa-fade fa-xl"></i></a></li>
+                    <li class="list-inline"><a class="link" href='https://github.com/Sravani020894?tab=repositories'><i class="fa-brands fa-github fa-fade fa-xl"></i></a></li>
+                    <li class="list-inline"><a class="link" href=mailto:'sravani.mgit@gmail.com'><i class="fa-regular fa-envelope fa-fade fa-xl"></i></a></li>
+                </ul>
+            </section>
     </header>
-
-    <hr>
-    <h2>@section</h2>
     <section class="section">
-    <div class="container container-center">
-        <h1>white Section</h1>
-        <p>I have experience with responsive frameworks plus HTML5, CSS3, JavaScript, TypeScript, React, jQuery, PHP, SASS, MySQL Databases, C#, Python, and Java. I have worked with NoSQL databases like MongoDB and Redis I am looking to further grow my skills and learn new ones. I love working with teams, and I am a strong, driven individual.</p>
-    </div>
+        <div class="container container-center">
+            <h3>Skills</h3>
+            <div class="skills">
+                <div class="icon"><img src="images/html-5.png" alt="HTML"></div>
+                <div class="icon"><img src="images/css.png" alt="CSS"></div>
+                <div class="icon"><img src="images/js.png" alt="javascript"></div>  
+                <div class="icon"><img src="images/physics.png" alt="react"></div>             
+                <div class="icon"><img src="images/sql-server.png" alt="SQL"></div>
+            </div>
+        </div>
     </section>
 
     <section class="section ow">
-        <div class="container container-center">
-        <h1 class="ow">off white section</h1>
-        <p>I have experience with responsive frameworks plus HTML5, CSS3, JavaScript, TypeScript, React, jQuery, PHP, SASS, MySQL Databases, C#, Python, and Java. I have worked with NoSQL databases like MongoDB and Redis I am looking to further grow my skills and learn new ones. I love working with teams, and I am a strong, driven individual.</p>
-    </div>
+        <h1 class="ow">projects</h1>
+        <div class="container container-center projects">
+            <div class="projectcode"><img class="screenshots" src="images/loginsignup.png" alt="loginsignup"><a href="https://github.com/Sravani020894/login-signin">Code</a></div>
+            <div class="projectcode"><img class="screenshots" src="images/portfolio.png" alt="portfolio"><a href="https://github.com/Sravani020894/MyPortfolio/tree/master/Resume%20portfolio">Code</a></div>
+            <div class="projectcode"><img class="screenshots" src="images/Foodzone.png" alt="foodzone"><a href="https://github.com/Sravani020894/FoodZoneReact">Code</a></div>
+        </div>
     </section>
 
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>some small heading inside footer</div>
-        <ul>
-            <li>Linkedin</li>
-            <li>Github</li>
-            <li>fb</li>
-        </ul>
-    </footer>
-
-    <div style="height:300px"></div>
 </body>
 </html>
